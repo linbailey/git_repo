@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="page3" >
+
+    <Button
+        android:id="@+id/btnpage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:background="#0067e7"
+        android:onClick="Page3"
+        android:text="Continue"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/question2"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/ckboxreason_similarity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
+        android:text="Because of what we have in common" />
+
+    <CheckBox
+        android:id="@+id/ckboxreason_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ckboxreason_place"
+        android:text="Because of what I&apos;m doing right now" />
+
+    <CheckBox
+        android:id="@+id/ckboxreason_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ckboxreason_similarity"
+        android:text="Because of where I am" />
+
+    <CheckBox
+        android:id="@+id/ckboxreason_entourage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ckboxreason_activity"
+        android:text="Because of who I&apos;m with" />
+
+    <Button
+        android:id="@+id/buttonpage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnpage3"
+        android:layout_alignBottom="@+id/btnpage3"
+        android:layout_alignParentLeft="true"
+        android:background="#0067e7"
+        android:onClick="BackButton"
+        android:text="Back"
+        android:textColor="#ffffff" 
+        android:tag = "page3"/>
+
+</RelativeLayout>

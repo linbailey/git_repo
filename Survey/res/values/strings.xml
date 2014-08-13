@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="pw_logo">PushWoosh logo</string>
+    <string name="tag_int">Favourite number</string>  
+    <string name="tag_string">Alias</string>
+    <string name="tag_int_hint">Tap to add int tag</string>
+    <string name="tag_string_hint">Tap to add alias</string>
+    <string name="submit_tags">Submit tags</string>
+    <string name="tags_status">Tags status</string>
+    <string name="general_status">General status</string>
+    <string name="registered">Registered %s</string>
+    <string name="unregistered">Unregistered %s</string>
+    <string name="registered_error">Registration error: %s</string>
+    <string name="unregistered_error">Unregistration error: %s</string>
+    <string name="on_message">On message: %s</string>
+    <string name="second_activity">Second activity</string>
+    
+    
+    <string name="app_name">Survey</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Submit</string>  
+    <string name="hello_world">Hello world!</string>
+    <string name="Welcome">Welcome to the ESM Survey!</string>
+    <string name="time">Has it been less than 30 min since notified to fill out survey?</string>
+    <string name="thankyou">Thank you. Your answers have been recorded.</string>
+    <string name="prelim">In general, would you be interested in meeting someone new right now?</string>
+    <string name="question1">Right now, would you be interested in meeting someone who shares this attribute with you:</string>
+    <string name="question2">Why are you interested in this right now? Select all that apply.</string>
+    <string name="question3">Why are you NOT interested in this right now? Select all that apply.</string>
+    <string name="question4">1. What kind of place are you in right now?</string>
+    <string name="question5">2. How social is this place right now? (Enter approx. number)</string>
+    <string name="question6">3. How rare do you think is [ATTRIBUTE] right now?</string>
+	<string name="question7">4. How familiar are you with people nearby?</string>
+	<string name="question8">5. How crowded is it right now?</string>
+	<string name="question9">6. How involved are you in an activity right now?</string>
+	<string name="question10">7. How regularly are you at this place?</string>
+    
+</resources>

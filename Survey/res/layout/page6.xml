@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="page6" >
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_marginTop="60dp"
+        android:text="@string/question7"
+        android:textSize="22dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView3"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="65dp"
+            android:layout_height="63dp"
+            android:text="1-                    I don&apos;t know anyone"
+            android:textSize="12dp" 
+            android:gravity="right"/>
+
+        <RadioButton
+            android:id="@+id/rdbtnfamiliarity_people1"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnfamiliarity_people2"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnfamiliarity_people3"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnfamiliarity_people4"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnfamiliarity_people5"
+           android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="- 5                    I know everyone"
+            android:textSize="12dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnpage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:background="#0067e7"
+        android:onClick="Page6"
+        android:text="Continue"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtAtt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/question6"
+        android:textSize="22dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtAtt3"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="1 -                Not at all"
+            android:textSize="12dp"
+            android:gravity = "right" />
+
+        <RadioButton
+            android:id="@+id/rdbtnrarity1"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnrarity2"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnrarity3"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnrarity4"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/rdbtnrarity5"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+      		android:layout_alignParentLeft="true" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_above="@+id/TextView3"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/radioGroup1"
+        android:text="- 5                       Very much"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/buttonpage6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnpage4"
+        android:layout_alignBottom="@+id/btnpage4"
+        android:layout_alignParentLeft="true"
+        android:background="#0067e7"
+        android:onClick="BackButton"
+        android:text="Back"
+        android:textColor="#ffffff" 
+        android:tag = "page6"/>
+
+</RelativeLayout>

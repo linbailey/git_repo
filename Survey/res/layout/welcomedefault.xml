@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="22dp"
+        android:text="@string/Welcome"/>
+
+    <Button
+        android:id="@+id/btncontinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#339900"
+        android:onClick="Begin"
+        android:text="Start Survey"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/userIdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:hint="Enter User ID"
+        android:textColor="#000000"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnEnter"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userIdText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#0067e7"
+        android:onClick="UserIDTextFile"
+        android:text="Enter User ID"
+        android:textColor="#000000" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnEnter"
+        android:layout_alignTop="@+id/btnEnter" />
+
+</RelativeLayout>
